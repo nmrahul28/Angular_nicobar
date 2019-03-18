@@ -11,3 +11,14 @@
     float: right;
     margin-right: 200px;
 }
+.sidebar{
+    width: 30%;
+    height: 800px;
+    background-color: white;
+    z-index: 10;
+}
+.body{
+    width: 70%;
+    height: 800px;
+    background-color:white;
+}

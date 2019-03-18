@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeroimageComponent } from './heroimage/heroimage.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { MainbodyComponent } from './mainbody/mainbody.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     NavbarComponent,
     FooterComponent,
     HeroimageComponent,
-    SidebarComponent
+    SidebarComponent,
+    MainbodyComponent
   ],
   imports: [
     BrowserModule,

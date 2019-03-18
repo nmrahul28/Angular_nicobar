@@ -1,0 +1,22 @@
+.sidebar{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    z-index: 10;
+}
+.body{
+    width: 70%;
+    height: 800px;
+    background-color: blue;
+}
+.side_data{
+    margin-left: 135px;
+    margin-top: 40px;
+    background: none;
+    border: none;
+}
+.side_data_types{
+    margin-left: 135px;
+    background: none;
+    border: none;
+}

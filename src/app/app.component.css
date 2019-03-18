@@ -1,0 +1,13 @@
+.collection_bar{
+    height: 50px;
+    background-color:white;
+    color: black;
+}
+.womenswear_text{
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.sort{
+    float: right;
+    margin-right: 200px;
+}

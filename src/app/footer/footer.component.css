@@ -1,0 +1,9 @@
+.footer_class{
+    background:gray;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    color: white;
+    z-index: -1;
+}

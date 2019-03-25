@@ -6,7 +6,6 @@ import{ DataserviceService } from '../dataservice.service'
   styleUrls: ['./mainbody.component.css']
 })
 export class MainbodyComponent implements OnInit {
-  public products=[];
    public items=[];
  constructor(private myservice1:DataserviceService) { 
     this.items=myservice1.send_data();

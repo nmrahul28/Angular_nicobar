@@ -5,8 +5,6 @@ import { Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class DataserviceService {
-  public data: any;
-  public changeData: Subject<any> = new Subject<any>();
   public copy: any;
   public subject_obj= new Subject<any>();
   json_data = [

@@ -1,0 +1,86 @@
+<div>
+  <button type="menu" class="side_data"><b>Collections</b></button>
+  <hr width="50%" color="black">
+  <div class="side_data_types" (click)="show_hide_categories();"><b>Categories</b>
+    <div id="categories">
+      <ul>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('category','Dresses');"><b>Dresses</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('category','Bottoms');"><b>Bottoms</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('category','Tops');"><b>Tops</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('category','accessories');"><b>Accessories</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('category','nicocore');"><b>Nico Core</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr width="50%">
+  <div class="side_data_types" (click)="show_hide_price()"><b>Price</b>
+    <div id="Price">
+      <ul>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('price','6000');"><b>less than 6000</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('price','7000');"><b>less than 7000</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('price','8000');"><b>less than 8000</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('price','9000');"><b>less than 9000</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr width="50%">
+  <div class="side_data_types" (click)="show_hide_size()"><b>Size</b>
+    <div id="Size">
+      <ul>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('size','S');"><b>S</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('size','M');"><b>M</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('size','XS');"><b>XS</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('size','L');"><b>L</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('size','XL');"><b>XL</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr width="50%">
+  <div class="side_data_types" (click)="show_hide_color()"><b>Color</b>
+    <div id="Color">
+      <ul>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('color','blue');"><b>Blue</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('color','ivory');"><b>Ivory</b></a>
+        </li>
+        <li class="inside_div">
+          <a href="#" (click)="get_item('color','white');"><b>White</b></a>
+        </li>
+        <li class="inside_div">
+            <a href="#" (click)="get_item('color','red');"><b>Red</b></a>
+          </li>
+      </ul>
+    </div>
+  </div>
+  <hr width="50%">
+</div>

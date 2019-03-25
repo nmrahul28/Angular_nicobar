@@ -1,0 +1,31 @@
+.side_data{
+    margin-left: 135px;
+    margin-top: 40px;
+    background: none;
+    border: none;
+}
+.side_data_types{
+    margin-left: 135px;
+    background: none;
+    border: none;
+}
+.inside_div{
+    margin-left: -30px;
+}
+#categories{
+    display: none;
+}
+li{
+    list-style-type: none;
+}
+#Price{
+    display: none;
+}
+#Size{
+    display: none;
+}
+#Color{
+    display: none;
+}
+
+
